@@ -5,18 +5,13 @@ let getHomePage = async (req, res) => {
     return res.render('homepage.ejs', {
       data: JSON.stringify(data),
     });
-  } catch {
+  } catch (e) {
     console.log(e);
   }
 };
 
-let getAboutPage = async (req, res) => {
-  try {
-    let data = await db.User.findAll();
-    return res.render('test/about.ejs');
-  } catch {
-    console.log(e);
-  }
+let getAboutPage = (req, res) => {
+  return res.render('test/about.ejs');
 };
 
 module.exports = {
