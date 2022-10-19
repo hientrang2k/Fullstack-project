@@ -1,6 +1,6 @@
-# Fullstack-project
-The first project
+## Fullstack-project
+- The first project
 
-#Run-project:
-Run xampp: apache, mySQL 
-yarn start
+##Run-project:
+- Run xampp: apache, mySQL 
+- yarn start
